@@ -3,8 +3,38 @@
 
 .header-image {
     margin: 0;
-    }
-    img {
-        width: 100%;
-        height: 100%;
-    }
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.bg-light {
+    background-color: white
+}
+
+.testimonials .testimonial-item {
+    max-width: 18rem;
+}
+
+.heading {
+    margin-top: 20px !important;
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+.intro-video {
+    margin-top: 20px;
+}
