@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -9,15 +9,11 @@
   <meta name="author" content="Jason Banks">
   <link rel="icon" type="image/ping" href="design/images/Favicon2-01.png">
   <title>Royal Rush</title>
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/business-frontpage.css" rel="stylesheet">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!--Custom CSS-->
   <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <!--Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
-  <!-- End Bootstrap CSS Framework -->
 
 
   <!-- FontAwesome (https://fontawesome.com/how-to-use/svg-with-js#basic-use) -->
@@ -65,147 +61,174 @@
   </figure>
 
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 mb-5">
-        <h1 class="heading">What's The Rush?</h1>
-        <hr>
-        <p>Glad you asked. Royalty doesn’t have to be a matter of bloodline. We at Royal Rush have a dedicated court to
-          give you or a special someone the royal treatment for a day. That’s right! Forget your peasant past as we help
-          you ascend to the highest rungs of society in an aristocratic experience you won’t soon forget. Learn more
-          about our royal offerings and choose your experience package today to get started.</p>
-        <a class="btn btn-primary btn-lg" href="#">Learn More &raquo;</a>
-        <hr>
+  <section>
+    <div class="container-fluid py-4 ml-4">
+      <div class="row align-items-center">
+        <div class="col-lg">
+          <h1 class="heading">What's The Rush?</h1>
+          <hr>
+          <p>Glad you asked. Royalty doesn’t have to be a matter of bloodline. We at Royal Rush have a dedicated court
+            to
+            give you or a special someone the royal treatment for a day. That’s right! Forget your peasant past as we
+            help
+            you ascend to the highest rungs of society in an aristocratic experience you won’t soon forget.</p>
+          <a class="btn btn-primary btn-lg" href="#">Learn More &raquo;</a>
+        </div>
+        <div class="col-lg">
+          <video width="500" height="250" controls class="intro-video" class="embed-responsive embed-responsive-16by9">
+            <source src="design/video/QC Prizes_FB.mp4" type="video/mp4"> </video>
+        </div>
       </div>
-      <div class="col-md-4 mb-5">
-        <video width="300" height="250" controls class="intro-video" class="embed-responsive embed-responsive-16by9">
-          <source src="design/video/QC Prizes_FB.mp4" type="video/mp4"> </video>
-      </div>
+      <!-- /.row -->
     </div>
-    <!-- /.row -->
+  </section>
 
-    <div class="row">
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-          <div class="card-body">
-            <h2 class="card-title">Kings and Queens</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus
-              neque sequi doloribus.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-          <div class="card-body">
-            <h2 class="card-title">Prince and Princess</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus
-              neque sequi doloribus totam ut praesentium aut.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+  <!--Royal Packages-->
+  <section class="testimonials">
+    <div class="container-fluid bg-light py-5">
+      <h2 class="mb-5 text-center">Royal Packages</h2>
+      <div class="row">
+        <div class="col-lg-2">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid mb-3" src="design/images/testimonial1-03.png" alt="">
+            <h5>Queen Tiffany</h5>
+            <p class="font-weight-light mb-0">"No one thought I'd be Queen. This helped prove them wrong!"</p>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-          <div class="card-body">
-            <h2 class="card-title">A Commoner's Delight</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus
-              neque.</p>
+        <div class="col-lg-2">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid mb-3" src="design/images/testimonial2-04.png" alt="">
+            <h5>Commoner Ted</h5>
+            <p class="font-weight-light mb-0">"I'm as common as they come, so the Commoner's Delight was the perfect treat."</p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+        </div>
+        <div class="col-lg-2">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid mb-3" src="design/images/testimonial3-05.png" alt="">
+            <h5>Basic Sarah</h5>
+            <p class="font-weight-light mb-0">"I'm, like, a princess in my own right, this experience just added to it."</p>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <section>
-      <div></div>
-    </section>
 
-    <!-- Testimonials -->
-    <section class="testimonials text-center">
-      <div class="container">
-        <h2 class="mb-5">Our Customer Experiences...</h2>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial1-03.png" alt="">
-              <h5>Beatrice LaStrange</h5>
-              <p class="font-weight-light mb-0">"I entered feeling beat and left feeling like a queen!"</p>
-            </div>
+  <section>
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="col-lg-6">
+          <video width="300" height="250" controls class="intro-video" class="embed-responsive embed-responsive-16by9">
+            <source src="design/video/QC Prizes_FB.mp4" type="video/mp4"> </video>
+        </div>
+        <div class="col-lg-6">
+          <h1 class="heading">What's The Rush?</h1>
+          <hr>
+          <p>Glad you asked. Royalty doesn’t have to be a matter of bloodline. We at Royal Rush have a dedicated court
+            to
+            give you or a special someone the royal treatment for a day. That’s right! Forget your peasant past as we
+            help
+            you ascend to the highest rungs of society in an aristocratic experience you won’t soon forget.</p>
+          <a class="btn btn-primary btn-lg" href="#">Learn More &raquo;</a>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials text-center">
+    <div class="container-fluid bg-light py-5 px-2">
+      <h2 class="mb-5">Our Customer Experiences...</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial1-03.png" alt="">
+            <h5>Queen Tiffany</h5>
+            <p class="font-weight-light mb-0">"No one thought I'd be Queen. This helped prove them wrong!"</p>
           </div>
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial2-04.png" alt="">
-              <h5>Fred S.</h5>
-              <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice
-                landing pages."</p>
-            </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial2-04.png" alt="">
+            <h5>Commoner Ted</h5>
+            <p class="font-weight-light mb-0">"I'm as common as they come, so the Commoner's Delight was the perfect treat."</p>
           </div>
-          <div class="col-lg-4">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial3-05.png" alt="">
-              <h5>Sarah W.</h5>
-              <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-            </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial3-05.png" alt="">
+            <h5>Basic Sarah</h5>
+            <p class="font-weight-light mb-0">"I'm, like, a princess in my own right, this experience just added to it."</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+
+  <!--Contact-->
+  <section>
+    <div class="container-fluid py-4 ml-4">
+      <div class="row align-items-center">
+        <div class="col-lg">
+          <h3 class="heading">Contact Us:</h3>
+          <p>Glad you asked. Royalty doesn’t have to be a matter of bloodline. We at Royal Rush have a dedicated court
+            to
+            give you or a special someone the royal treatment for a day. That’s right! Forget your peasant past as we
+            help
+            you ascend to the highest rungs of society in an aristocratic experience you won’t soon forget.</p>
+        </div>
+        <div class="col-lg">
+          <video width="500" height="250" controls class="intro-video" class="embed-responsive embed-responsive-16by9">
+            <source src="design/video/QC Prizes_FB.mp4" type="video/mp4"> </video>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+  </section>
 
 
 
-    <!-- Note: If you do not see a camera icon in the heading below
+  <!-- Note: If you do not see a camera icon in the heading below
              when you view this file in a web browser, then there is an issue
              with how FontAwesome is linked to this page. -->
 
-    <h1><span class="fas fa-camera-retro"></span> Hello World!</h1>
-    <!-- TODO: Populate this page with all the content you deem
+  <!-- TODO: Populate this page with all the content you deem
              necessary to create a compelling product page! -->
 
-    <!-- TODO: Create an area to put the explainer video. -->
+  <!-- TODO: Create an area to put the explainer video. -->
 
-    <!-- TODO: Create an area to put the long product description. -->
+  <!-- TODO: Create an area to put the long product description. -->
 
-    <!-- TODO: Create an area to put customer testimonials. -->
+  <!-- TODO: Create an area to put customer testimonials. -->
 
-    <!-- TODO: Create an area to show features. -->
+  <!-- TODO: Create an area to show features. -->
 
-    <!-- TODO: Create an area to show company contact info (phone,
+  <!-- TODO: Create an area to show company contact info (phone,
              location, etc.) -->
 
-    <!-- TODO: Create an area that allows users to Share links to the
+  <!-- TODO: Create an area that allows users to Share links to the
              page. -->
 
-    <!-- TODO: Create a call to action link to get users to sign up for the
+  <!-- TODO: Create a call to action link to get users to sign up for the
              service. -->
-<div>
-    <footer class="py-5 bg-dark">
-      <div class="container"></div>
-        <p class="m-0 text-center text-white">Copyright &copy; Royal Rush 2019</p>
-      </div>
-      <!-- /.container -->
-    </footer>
 
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
-    </script>
+  <footer class="py-5 bg-dark">
+    <div class="container-fluid">
+      <p class="m-0 text-right text-white">Copyright &copy; Royal Rush 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
