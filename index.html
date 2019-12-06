@@ -11,10 +11,12 @@
   <title>Royal Rush</title>
 
   <!--Bootstrap-->
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <!--Custom CSS-->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
 
   <!-- FontAwesome (https://fontawesome.com/how-to-use/svg-with-js#basic-use) -->
@@ -24,7 +26,7 @@
 
 </head>
 
-<body>
+<body id="page-top">
   <!--navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container-fluid">
@@ -58,21 +60,21 @@
 
   <!--Intro-->
   <section id="about">
-    <div class="container-fluid py-4 ml-4">
+    <div class="container-fluid py-4 bg-success">
       <div class="row align-items-center">
         <div class="col-lg-6">
-          <h1 class="display-4">What's The Rush?</h1>
+          <h1 class="display-4 text-white"> <strong>What's The Rush?</strong></h1>
           <hr>
-          <p>Glad you asked. Royalty doesn’t have to be a matter of bloodline. We at Royal Rush have a dedicated court
+          <p class="text-white font-weight-light">Glad you asked. Royalty doesn’t have to be a matter of bloodline. We at Royal Rush have a dedicated court
             to
             give you or a special someone the royal treatment for a day. That’s right! Forget your peasant past as we
             help
             you ascend to the highest rungs of society in an aristocratic experience you won’t soon forget.</p>
-          <a class="btn btn-primary btn-lg" href="#">Learn More &raquo;</a>
+          <a class="btn btn-primary btn-lg" href="#packages">Learn More &raquo;</a>
         </div>
         <div class="col-lg text-center mt-4">
           <video width="500" height="250" controls class="intro-video" class="embed-responsive embed-responsive-16by9">
-            <source src="design/video/QC Prizes_FB.mp4" type="video/mp4"> </video>
+            <source src="design/video/QC-About-Video.mp4" type="video/mp4"> </video>
         </div>
       </div>
     </div>
@@ -83,8 +85,11 @@
     <div class="container-fluid bg-light py-5">
       <div class="row ml-4">
         <div class="col-lg-6 order-lg-last">
-          <h1 class="mt-6 text-left display-4 ml-4">Royal Packages</h1>
+          <h1 class="mt-6 text-left display-4 ml-1"><strong>Royal Packages</strong></h1>
           <hr>
+          <p class="font-weight-light">With many packages to choose from, there's sure to be a royal experience fit for just about anyone. Browse
+            our experiences and to get started.</p>
+
         </div>
         <div class="col-lg-2">
           <div class="testimonial-item mx-auto mb-5 mt-4 mt-md-0 mb-lg-0">
@@ -115,18 +120,18 @@
 
   <!--product description-->
   <section class="testimonials">
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5 bg-success">
       <div class="row ml-4">
         <div class="col-lg-6">
-          <h1 class="mt-6 text-left display-4 ml-4">How it Works</h1>
+          <h1 class="mt-6 text-left display-4 ml-2 text-white"> <strong>How it Works:</strong></h1>
           <hr>
-          <p>Not far off from an escape room adventure, our packages are full-day excursions that allow you live out
+          <p class="text-white font-weight-light">Not far off from an escape room adventure, our packages are full-day excursions that allow you live out
             your regal fantasies. Dependent upon the scenario you chose, our staff fully coordinates your entire royal
             day so you don’t lift a finger. Whether it’s for a special event or just for fun, we offer all types of
             experiences that will leave you wanting more. Rush now, our chariots are filling up fast!</p>
         </div>
         <div class="col-lg-6">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+          <div class="testimonial-item mx-auto mb-1 mb-lg-0">
             <img class="img-fluid mb-3" src="design/images/Logo-09.png" alt="Kings and Queens Package">
           </div>
         </div>
@@ -141,16 +146,17 @@
       <div class="row align-items-center">
         <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial1-03.png" alt="">
+            <img class="img-fluid rounded-circle mb-3" src="design/images/Testimonials-2.png" alt="">
             <h5>Snarky Ted</h5>
             <p class="font-weight-light mb-0">"When I took the throne, I made sure everyone 'bend da knee.'"</p>
           </div>
         </div>
         <div class="col-lg-2">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial1-03.png" alt="">
-            <h5>Queen Tiffany</h5>
-            <p class="font-weight-light mb-0">"No one thought I'd be Queen. This helped prove them wrong!"</p>
+            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial-1.png" alt="">
+            <h5>Prince No Charm</h5>
+            <p class="font-weight-light mb-0">"Off with her head! Just-kidding...the staff makes the experience real,
+              real."</p>
           </div>
         </div>
         <div class="col-lg-2">
@@ -185,34 +191,30 @@
 
   <!--Contact-->
   <section>
-    <div class="container-fluid py-4 ml-4">
-      <div class="row align-items-center">
-        <div class="col-lg">
-          <h3 class="heading">Contact Us:</h3>
-          <p>Glad you asked. Royalty doesn’t have to be a matter of bloodline. We at Royal Rush have a dedicated court
-            to
-            give you or a special someone the royal treatment for a day. That’s right! Forget your peasant past as we
-            help
-            you ascend to the highest rungs of society in an aristocratic experience you won’t soon forget.</p>
+    <div class="container-fluid py-4 bg-success">
+      <div class="row align-items-start">
+        <div class="col">
+            <h3 class="heading">Contact Us:</h3>
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Name</label>
+                  <input type="email" class="form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Email</label>
+                  <input type="password" class="form-control-lg" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+
+          <!-- /.row -->
         </div>
-        <div class="col-lg-4">
-          <img src="design/images/Logo-Image-09.png" alt="Royal Rush" class="img-fluid">
-        </div>
-      </div>
-      <!-- /.row -->
-    </div>
   </section>
-
-
-
-  <!-- Note: If you do not see a camera icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how FontAwesome is linked to this page. -->
-
-  <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
-
-  <!-- TODO: Create an area to put the explainer video. -->
 
   <!-- TODO: Create an area to show company contact info (phone,
              location, etc.) -->
@@ -230,7 +232,7 @@
           1212 Kings Royal Drive <br>
           Crownsville, WA 00000 <br>
           Tel: 222-222-2222 <br>
-          Email: <a href="mailto:jbanks@seattleu.edu"> Kings Royals</a>
+          Email: <a href="mailto:jbanks@seattleu.edu" class="text-success"> Kings Royals</a>
         </address>
       </div>
       <div class="col">
@@ -240,14 +242,18 @@
     <!-- /.container -->
   </footer>
 
-  <script></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
   </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
 
+  <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
 
 

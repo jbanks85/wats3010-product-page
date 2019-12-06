@@ -22,3 +22,7 @@ img {
     max-width: 15rem;
 }
 
+p {
+    font-size: inherit!important;
+}
+
