@@ -9,47 +9,43 @@
   <meta name="author" content="Jason Banks">
   <link rel="icon" type="image/ping" href="design/images/Favicon2-01.png">
   <title>Royal Rush</title>
+
   <!--Bootstrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
   <!--Custom CSS-->
   <link rel="stylesheet" href="main.css">
-
 
   <!-- FontAwesome (https://fontawesome.com/how-to-use/svg-with-js#basic-use) -->
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-  <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Royal Rush</a>
+  <!--navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container-fluid">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Royal Rush</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link js-scroll-trigger" href="#packages">Packages</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#testimonials">Contact</a>
           </li>
         </ul>
       </div>
@@ -57,15 +53,15 @@
   </nav>
 
   <figure class="header-image">
-    <img src="design/images/Header-Image-W-Logo-02.png" alt="The Royal Life">
+    <img class="image-fluid" src="design/images/Header-Image-W-Logo-02.png" alt="The Royal Life">
   </figure>
 
-
-  <section>
+  <!--Intro-->
+  <section id="about">
     <div class="container-fluid py-4 ml-4">
       <div class="row align-items-center">
-        <div class="col-lg">
-          <h1 class="heading">What's The Rush?</h1>
+        <div class="col-lg-6">
+          <h1 class="display-4">What's The Rush?</h1>
           <hr>
           <p>Glad you asked. Royalty doesn’t have to be a matter of bloodline. We at Royal Rush have a dedicated court
             to
@@ -74,92 +70,113 @@
             you ascend to the highest rungs of society in an aristocratic experience you won’t soon forget.</p>
           <a class="btn btn-primary btn-lg" href="#">Learn More &raquo;</a>
         </div>
-        <div class="col-lg">
+        <div class="col-lg text-center mt-4">
           <video width="500" height="250" controls class="intro-video" class="embed-responsive embed-responsive-16by9">
             <source src="design/video/QC Prizes_FB.mp4" type="video/mp4"> </video>
         </div>
       </div>
-      <!-- /.row -->
     </div>
   </section>
 
   <!--Royal Packages-->
-  <section class="testimonials">
+  <section id="packages" class="testimonials">
     <div class="container-fluid bg-light py-5">
-      <h2 class="mb-5 text-center">Royal Packages</h2>
-      <div class="row">
+      <div class="row ml-4">
+        <div class="col-lg-6 order-lg-last">
+          <h1 class="mt-6 text-left display-4 ml-4">Royal Packages</h1>
+          <hr>
+        </div>
         <div class="col-lg-2">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid mb-3" src="design/images/testimonial1-03.png" alt="">
-            <h5>Queen Tiffany</h5>
+          <div class="testimonial-item mx-auto mb-5 mt-4 mt-md-0 mb-lg-0">
+            <img class="img-fluid mb-3" src="design/images/Kings-Queens-06.png" alt="Kings and Queens Package">
+            <h5>Kings and Queens</h5>
             <p class="font-weight-light mb-0">"No one thought I'd be Queen. This helped prove them wrong!"</p>
           </div>
         </div>
         <div class="col-lg-2">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid mb-3" src="design/images/testimonial2-04.png" alt="">
-            <h5>Commoner Ted</h5>
-            <p class="font-weight-light mb-0">"I'm as common as they come, so the Commoner's Delight was the perfect treat."</p>
+            <img class="img-fluid mb-3" src="design/images/Prince-Princess-07.png" alt="Prince and Princess Package">
+            <h5>Prince and Princess</h5>
+            <p class="font-weight-light mb-0">"I'm as common as they come, so the Commoner's Delight was the perfect
+              treat."</p>
           </div>
         </div>
         <div class="col-lg-2">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid mb-3" src="design/images/testimonial3-05.png" alt="">
-            <h5>Basic Sarah</h5>
-            <p class="font-weight-light mb-0">"I'm, like, a princess in my own right, this experience just added to it."</p>
+            <img class="img-fluid mb-3" src="design/images/Commoners-Delight-08.png" alt="Commoner's Delight Package">
+            <h5>Commomner's Delight</h5>
+            <p class="font-weight-light mb-0">"I'm, like, a princess in my own right, this experience just added to it."
+            </p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-
-  <section>
-    <div class="container-fluid py-4">
-      <div class="row">
+  <!--product description-->
+  <section class="testimonials">
+    <div class="container-fluid py-5">
+      <div class="row ml-4">
         <div class="col-lg-6">
-          <video width="300" height="250" controls class="intro-video" class="embed-responsive embed-responsive-16by9">
-            <source src="design/video/QC Prizes_FB.mp4" type="video/mp4"> </video>
+          <h1 class="mt-6 text-left display-4 ml-4">How it Works</h1>
+          <hr>
+          <p>Not far off from an escape room adventure, our packages are full-day excursions that allow you live out
+            your regal fantasies. Dependent upon the scenario you chose, our staff fully coordinates your entire royal
+            day so you don’t lift a finger. Whether it’s for a special event or just for fun, we offer all types of
+            experiences that will leave you wanting more. Rush now, our chariots are filling up fast!</p>
         </div>
         <div class="col-lg-6">
-          <h1 class="heading">What's The Rush?</h1>
-          <hr>
-          <p>Glad you asked. Royalty doesn’t have to be a matter of bloodline. We at Royal Rush have a dedicated court
-            to
-            give you or a special someone the royal treatment for a day. That’s right! Forget your peasant past as we
-            help
-            you ascend to the highest rungs of society in an aristocratic experience you won’t soon forget.</p>
-          <a class="btn btn-primary btn-lg" href="#">Learn More &raquo;</a>
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid mb-3" src="design/images/Logo-09.png" alt="Kings and Queens Package">
+          </div>
         </div>
       </div>
-      <!-- /.row -->
     </div>
   </section>
 
   <!-- Testimonials -->
   <section class="testimonials text-center">
-    <div class="container-fluid bg-light py-5 px-2">
-      <h2 class="mb-5">Our Customer Experiences...</h2>
-      <div class="row">
-        <div class="col-lg-4">
+    <div class="container-fluid bg-light py-5">
+      <h2 class="mb-5 display-4">Our Customer Experiences...</h2>
+      <div class="row align-items-center">
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial1-03.png" alt="">
+            <h5>Snarky Ted</h5>
+            <p class="font-weight-light mb-0">"When I took the throne, I made sure everyone 'bend da knee.'"</p>
+          </div>
+        </div>
+        <div class="col-lg-2">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial1-03.png" alt="">
             <h5>Queen Tiffany</h5>
             <p class="font-weight-light mb-0">"No one thought I'd be Queen. This helped prove them wrong!"</p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-2">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial2-04.png" alt="">
-            <h5>Commoner Ted</h5>
-            <p class="font-weight-light mb-0">"I'm as common as they come, so the Commoner's Delight was the perfect treat."</p>
+            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial1-03.png"
+              alt="Customer Testimonial Tiffany">
+            <h5>Queen Tiffany</h5>
+            <p class="font-weight-light mb-0">"Jewels are my thing, babe. A Queen's life was just right for me."</p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-2">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial3-05.png" alt="">
+            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial2-04.png"
+              alt="Customer Testimonial Ted">
+            <h5>Commoner Ted</h5>
+            <p class="font-weight-light mb-0">"I'm as common as they come, so the Commoner's Delight was the perfect
+              treat."</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial3-05.png"
+              alt="Customer Testimonial Sarah">
             <h5>Basic Sarah</h5>
-            <p class="font-weight-light mb-0">"I'm, like, a princess in my own right, this experience just added to it."</p>
+            <p class="font-weight-light mb-0">"I'm, like, a princess in my own right, this experience just added to it."
+            </p>
           </div>
         </div>
       </div>
@@ -178,9 +195,8 @@
             help
             you ascend to the highest rungs of society in an aristocratic experience you won’t soon forget.</p>
         </div>
-        <div class="col-lg">
-          <video width="500" height="250" controls class="intro-video" class="embed-responsive embed-responsive-16by9">
-            <source src="design/video/QC Prizes_FB.mp4" type="video/mp4"> </video>
+        <div class="col-lg-4">
+          <img src="design/images/Logo-Image-09.png" alt="Royal Rush" class="img-fluid">
         </div>
       </div>
       <!-- /.row -->
@@ -198,12 +214,6 @@
 
   <!-- TODO: Create an area to put the explainer video. -->
 
-  <!-- TODO: Create an area to put the long product description. -->
-
-  <!-- TODO: Create an area to put customer testimonials. -->
-
-  <!-- TODO: Create an area to show features. -->
-
   <!-- TODO: Create an area to show company contact info (phone,
              location, etc.) -->
 
@@ -213,22 +223,36 @@
   <!-- TODO: Create a call to action link to get users to sign up for the
              service. -->
 
-  <footer class="py-5 bg-dark">
-    <div class="container-fluid">
-      <p class="m-0 text-right text-white">Copyright &copy; Royal Rush 2019</p>
+  <footer class="py-4 bg-dark container-fluid">
+    <div class="row align-items-center">
+      <div class="col">
+        <address class="text-white"> <strong>Royal Rush </strong><br>
+          1212 Kings Royal Drive <br>
+          Crownsville, WA 00000 <br>
+          Tel: 222-222-2222 <br>
+          Email: <a href="mailto:jbanks@seattleu.edu"> Kings Royals</a>
+        </address>
+      </div>
+      <div class="col">
+        <p class="m-0 text-right text-white">Copyright &copy; Royal Rush 2019</p>
+      </div>
     </div>
     <!-- /.container -->
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  <script></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-  </script>
+
+  <script src="js/scrolling-nav.js"></script>
+
+
+
+
 </body>
 
 </html>
