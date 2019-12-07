@@ -25,7 +25,7 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" data-spy="scroll" data-target="#mainNav">
   <!--navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container-fluid">
@@ -43,19 +43,21 @@
             <a class="nav-link js-scroll-trigger" href="#packages">Packages</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <figure class="header-image">
-    <img class="image-fluid" src="design/images/Header-Image-W-Logo-02.png" alt="The Royal Life">
-  </figure>
+  <header>
+    <figure class="header-image">
+      <img class="image-fluid" src="design/images/Header-Image-W-Logo-02.png" alt="The Royal Life">
+    </figure>
+  </header>
 
   <!--Intro-->
   <section id="about">
@@ -149,14 +151,16 @@
       <div class="row align-items-center">
         <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="design/images/Testimonials-2.png" alt="Customer Testimonial Ned">
+            <img class="img-fluid rounded-circle mb-3" src="design/images/Testimonials-2.png"
+              alt="Customer Testimonial Ned">
             <h5>Snarky Ned</h5>
             <p class="font-weight-light mb-0">"When I took the throne, I made sure everyone 'bend da knee.'"</p>
           </div>
         </div>
         <div class="col-lg-2">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial-1.png" alt="Customer Testimonial Prince">
+            <img class="img-fluid rounded-circle mb-3" src="design/images/testimonial-1.png"
+              alt="Customer Testimonial Prince">
             <h5>Prince No Charm</h5>
             <p class="font-weight-light mb-0">"Off with her head! Just-kidding...the staff makes the experience real,
               real."</p>
@@ -196,20 +200,10 @@
   <section id="contact">
     <div class="container-fluid py-2 bg-success">
       <div class="row align-items-center">
-        <div class="col-md-7">
-          <address class="text-white"> <strong>Royal Rush </strong><br>
-            1212 Kings Royal Drive <br>
-            Crownsville, WA 00000 <br>
-            Tel: 222-222-2222 <br>
-          </address>
-          <div style="font-size: 3em;">
-            <a target="_blank" href="https://www.facebook.com" class="facebook"><i
-                class="fab fa-facebook-square"></i></a>
-            <a target="_blank" href="https://www.twitter.com" class="twitter"><i class="fab fa-twitter-square"></i></a>
-            <a target="_blank" href="https://www.google.com/gmail" class="gmail"><i class="far fa-envelope"></i></a>
-          </div>
+        <div class="col-md-3">
         </div>
-        <div class="col-md-5">
+        <!--form fill-->
+        <div class="col-md-6">
           <h3 class="heading text-left text-white py-2">Contact Us:</h3>
           <form class="text-center">
             <div class="form-group">
@@ -224,27 +218,31 @@
             </div>
             <button type="submit" class="btn btn-outline-light">Submit</button>
           </form>
-
-          <!-- /.row -->
         </div>
+        <div class="col-md-3">
+        </div>
+      </div>
   </section>
 
-  <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
-
-  <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-  <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-
+  <!-- Address and Social -->
   <footer class="py-4 bg-dark container-fluid">
     <div class="row align-items-center">
-      <div class="col">
-        <p class="m-0 text-center text-white">Copyright &copy; Royal Rush 2019</p>
+      <div class="col-md-6">
+        <address class="text-white"> <strong>Royal Rush </strong><br>
+          1212 Kings Royal Drive <br>
+          Crownsville, WA 00000 <br>
+          Tel: 222-222-2222 <br>
+        </address>
+        <div style="font-size: 2em;" class="mt-n3">
+          <a target="_blank" href="https://www.facebook.com" class="facebook"><i class="fab fa-facebook-square"></i></a>
+          <a target="_blank" href="https://www.twitter.com" class="twitter"><i class="fab fa-twitter-square"></i></a>
+          <a target="_blank" href="https://www.google.com/gmail" class="gmail"><i class="far fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <p class="m-0 text-right text-white">Copyright &copy; Royal Rush 2019</p>
       </div>
     </div>
-    <!-- /.container -->
   </footer>
 
   <!-- Bootstrap core JavaScript -->
@@ -260,9 +258,6 @@
 
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
-
-
-
 
 </body>
 
